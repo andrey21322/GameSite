@@ -5,7 +5,8 @@
 }
 .container{
     width: 1200px; 
-    margin: 0 auto;}
+    margin: 0 auto;
+}
 body{
     background-color: black;
 }
@@ -109,7 +110,6 @@ h2{
 .Huge{
     font-size: 50px;
 }
-
 .about_log{
     width: 300px;
     height: auto;
@@ -122,7 +122,6 @@ h2{
 .about_more{
     margin:36px 0 0 186px ;
 }
-
 .about_sub{
     color: #595959;
     font-size: 14px;
@@ -133,7 +132,6 @@ h2{
     color: #1d1d1d;
     font-weight: 400;
 }
-
 .about_info{
     margin-top: 72px;
     margin-left: 155px;
@@ -142,7 +140,6 @@ h2{
     justify-content: space-between;
     text-align: center;
 }
-
 .about_item{
     align-items:center;
     width: 231px;
@@ -546,147 +543,147 @@ textarea{
     justify-content: space-between;
     width: 66px;
 }
-    @media screen and (min-width: 320px) {
-        div{
-            display: block;
-        }
-        .container{
-            width: 320px;
-        }
-        h1{
-            font-size: 40px;
-        }
-        .r6_descr{
-            margin-left:0;
-        }
-        .menu{
-            width: 300px;
-            margin:0;
-        }
-        .about_head{
-            display: block;
-        }
-        .about_log{
-            padding: 0;
-        }
-        .about_more{
-            margin: 0;
-        }
-        .about_info{
-            margin: 72px 0 0 40px;
-            display: block;
-        }
-        .about_nav{
-            margin-left: 0;
-        }
-        .about_hr{
-            display: none;
-        }
-        .about_a{
-            width: auto;
-        }
-        .imgs{
-            height: auto;
-            text-align: center;
-        }
-        .first_img, .second_img{
-            display: block;
-        }
-        .work{
-            padding: 0;
-            height: auto;
-            margin: 0;
-        }
-        h2{
-            margin-left: 0;
-            padding: 0;
-        }
-        .work_txt{
-            margin: 0;
-        }
-        .more_work{
-            text-align: center;
-        }
-        .more_img img{
-            width:300px;
-            margin: 0;
-        }
-        .more_wrapper_1{
-            height: auto;
-            display: block;
-        }
-        .more_descr{
-            margin: 0;
-        }
-        .more_descr_2,.more_img_2{
-            display:none;
-        }
-        .Joker{
-            height: 540px;
-        }
-        .joker_box{
-            width:0;
-            margin:0;
-            display: block;
-            text-align: center;
-        }
-        .joker_descr,.joker_descr_2,.joker_descr_3,.joker_descr_4{
-            position: relative;
-        }
-        .developer_head{
-            display: block;
-        }
-        .developer{
-            height: 1300px;
-        }
-        .head_txt{
-            margin:0;
-        }
-        .dev{
-            width:auto;
-            margin-left: 0;
-            display:block;
-        }
-        .f_links{
-            height: 1300px;
-        }
-        .f_fl{
-            display:block;
-            padding: 0;
-            width:300px;
-        }
-        .f_login{
-            margin: 0;
-            width:auto;
-        }
-        footer{
-            background: blue;
-            padding-left:100px;
-            text-align: center;
-        }
-        .footer h2{
-            padding: 45px 0 0 0;
-        }
-        .feed-form{
-            width:200px
-        }
-        input[type=text],textarea,input[type=number]{
-            width:200px;
-            padding:0 ;
-        }
-        input[type=email]{
-            width:200px;
-            padding:0 ;
-            margin:0 0 12px 1px;
-        }
-        .foot_img_hr{
-            margin:300px 0 15px;
-            width:160px;
-        }
-        .foot_img{
-            margin:5px 0 0 65px;
-        }
-
+@media (max-width: 320px) {
+    div{
+        display: block;
+     }
+    .container{
+         width: 320px;
+    }
+    h1{
+         font-size: 40px;
+    }
+    .r6_descr{
+        margin-left:0;
+    }
+    .menu{
+        width: 300px;
+        margin:0;
+    }
+    .about_head{
+        display: block;
+    }
+    .about_log{
+        padding: 0;
+    }
+    .about_more{
+        margin: 0;
+    }
+    .about_info{
+        margin: 72px 0 0 40px;
+        display: block;
+    }
+    .about_nav{
+        margin-left: 0;
+    }
+    .about_hr{
+        display: none;
+    }
+    .about_a{
+        width: auto;
+    }
+    .imgs{
+        height: auto;
+        text-align: center;
+    }
+    .first_img, .second_img{
+        display: block;
+    }
+    .work{
+        padding: 0;
+        height: auto;
+        margin: 0;
+    }
+    h2{
+        margin-left: 0;
+        padding: 0;
+    }
+    .work_txt{
+        margin: 0;
+    }
+    .more_work{
+        text-align: center;
+    }
+    .more_img img{
+        width:300px;
+        margin: 0;
+    }
+    .more_wrapper_1{
+        height: auto;
+        display: block;
+    }
+    .more_descr{
+        margin: 0;
+    }
+    .more_descr_2,.more_img_2{
+        display:none;
+    }
+    .Joker{
+        height: 540px;
+    }
+    .joker_box{
+        width:0;
+        margin:0;
+        display: block;
+        text-align: center;
+        padding-left: 50px;
+     }
+      .joker_descr,.joker_descr_2,.joker_descr_3,.joker_descr_4{
+          position: relative;
+      }
+      .developer_head{
+          display: block;
+      }
+    .developer{
+        height: 1300px;
+     }
+    .head_txt{
+        margin:0;
+    }
+    .dev{
+        width:auto;
+        margin-left: 0;
+        display:block;
+    }
+     .f_links{
+        height: 1300px;
+    }
+    .f_fl{
+        display:block;
+        padding: 0;
+        width:300px;
+    }
+    .f_login{
+        margin: 0;
+        width:auto;
+    }
+    footer{
+        background: blue;
+        padding-left:100px;
+        text-align: center;
+    }
+    .footer h2{
+        padding: 45px 0 0 0;
+    }
+    .feed-form{
+        width:200px
+    }
+    input[type=text],textarea,input[type=number]{
+        width:200px;
+        padding:0 ;
+    }
+    input[type=email]{
+        width:200px;
+        padding:0 ;
+        margin:0 0 12px 1px;
+    }
+    .foot_img_hr{
+        margin:300px 0 15px;
+        width:160px;
+    }
+    .foot_img{
+        margin:5px 0 0 65px;
+    } 
+}
         
-        }
 
